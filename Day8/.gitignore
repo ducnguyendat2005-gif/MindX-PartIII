@@ -1,0 +1,12 @@
+# Bỏ qua thư mục thư viện (Bắt buộc phải có dòng này)
+node_modules/
+
+# Bỏ qua file cấu hình môi trường, mật khẩu, bí mật (nếu có)
+.env
+.env.local
+
+# Bỏ qua các file log khi chạy ứng dụng bị lỗi
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
